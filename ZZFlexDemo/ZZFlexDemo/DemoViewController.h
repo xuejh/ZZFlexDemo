@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DemoViewController.h
 //  ZZFlexDemo
 //
 //  Created by jinhui  xue on 2018/12/9.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-
-
-@interface ViewController : UIViewController
-
+@interface DemoViewController : UIViewController
 
 @end
-
