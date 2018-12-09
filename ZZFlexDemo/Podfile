@@ -1,0 +1,13 @@
+platform :ios, '8.0'
+inhibit_all_warnings!
+
+target 'ZZFlexDemo' do
+
+pod 'TLKit', :git => 'https://github.com/tbl00c/TLKit.git', :tag => '0.0.21'
+
+pod 'Masonry', '~> 1.1.0'
+#pod 'MJRefresh', '~> 3.1.15'
+pod 'MJRefresh', :path=>'/Users/wuruifeng/MJRefresh'
+pod 'XLPhotoBrowser+CoderXL', :git => 'https://github.com/tbl00c/XLPhotoBrowser.git', :tag => '1.2.1'
+
+end
